@@ -19,5 +19,17 @@
 // Output: [0,1]
 
 export function twoSum(nums: number[], target: number): number[] {
-  return [0, 1];
+  for (let i = 0; i < nums.length; i++) {
+    const n1 = nums[i];
+    const n2 = target - n1;
+    for (let j = 0; j < nums.length; j++) {
+      if (i === j) {
+        continue;
+      }
+      if (n2 === nums[j]) {
+        return [i, j];
+      }
+    }
+  }
+  throw Error("not found");
 }
