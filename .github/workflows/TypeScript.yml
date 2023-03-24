@@ -3,6 +3,7 @@ on:
     branches: ["main"]
     paths:
       - TypeScript/**
+  workflow_dispatch:
 
 jobs:
   build:
