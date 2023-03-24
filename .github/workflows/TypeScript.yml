@@ -5,12 +5,12 @@ on:
       - TypeScript/**
   workflow_dispatch:
 
-defaults:
-  run:
-    working-directory: ./TypeScript
-
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: TypeScript
+
     runs-on: ubuntu-latest
 
     strategy:
