@@ -5,6 +5,10 @@ on:
       - TypeScript/**
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: TypeScript
+
 jobs:
   build:
     runs-on: ubuntu-latest
