@@ -1,7 +1,7 @@
 # My LeetCode
 https://leetcode.com/sonohara/
 
-[![LeetCode](https://img.shields.io/badge/Solved-9%2F2598-black.svg?&color=%23ffa116style=flat&logo=leetcode&logoColor=yellow)](https://leetcode.com/sonohara/)
+[![LeetCode](https://img.shields.io/badge/Solved-10%2F2598-black.svg?&color=%23ffa116style=flat&logo=leetcode&logoColor=yellow)](https://leetcode.com/sonohara/)
 
 ![TypeScript workflow](score.png)
 
