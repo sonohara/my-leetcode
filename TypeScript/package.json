@@ -2,7 +2,7 @@
   "name": "my-leetcode-typescript",
   "version": "1.0.0",
   "scripts": {
-    "test": "vitest run",
+    "test": "vitest run --reporter=verbose",
     "test:ui": "vitest --ui"
   },
   "devDependencies": {
