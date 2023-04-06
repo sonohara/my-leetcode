@@ -1,7 +1,7 @@
 # My LeetCode
 https://leetcode.com/sonohara/
 
-[![LeetCode](https://img.shields.io/badge/Solved-15%2F2598-black.svg?&color=%23ffa116style=flat&logo=leetcode&logoColor=yellow)](https://leetcode.com/sonohara/)
+[![LeetCode](https://img.shields.io/badge/Solved-16%2F2598-black.svg?&color=%23ffa116style=flat&logo=leetcode&logoColor=yellow)](https://leetcode.com/sonohara/)
 
 ![Score](score.png)
 
@@ -20,3 +20,6 @@ https://leetcode.com/list?selectedList=ozmezud6
   - 二分探索がそらで書けなかった…
     - 単純な二分探索じゃなくて、最小値以下 / 最大値以上のケースもあるのが余計にごちゃごちゃしてしまった
   - `left + ((right - left) / 2)` じゃなくて `(left + right) / 2` で出来るのは覚える 
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)
+  - そもそもどうやって求めればよいか気付けず、discussion 見るまでコード書くまで至らなかった
+  - fibonacci
