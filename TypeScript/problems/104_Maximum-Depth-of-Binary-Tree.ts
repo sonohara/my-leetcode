@@ -21,7 +21,7 @@ export function maxDepth(root: TreeNode | null): number {
 
 function down(node: TreeNode | null, depth: number): number {
   if (!node || node.val === null) {
-    return 0;
+    return depth;
   }
 
   depth += 1;
