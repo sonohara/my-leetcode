@@ -1,5 +1,6 @@
 package problems
 
+// https://leetcode.com/problems/symmetric-tree/
 func isSymmetric(root *TreeNode) bool {
 	return isMirror(root.Left, root.Right)
 }
